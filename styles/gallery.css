@@ -1,0 +1,58 @@
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    background-color: white;
+    color: black;6
+  }
+
+  #photos img {
+    border: 2px solid black;
+    height: 200px;
+    margin: 15px;
+  }
+
+  .images {
+    width: 100%;
+  }
+
+  footer {
+    border: 1px solid black;
+    background-color: black;
+    background-size: 100%;
+    color: white;
+  }
+
+  ion-icon {
+    font-size:25px;
+    border: 2px solid white;
+    color: white;
+    padding: 8px;
+    display: inline-flex;
+    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+@media (min-width: 599px) {
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+  #photos img {
+    border: 2px solid black;
+  }
+
+  .images {
+    width: 60%;
+  }
+}
