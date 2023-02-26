@@ -1,0 +1,38 @@
+body {
+  
+}
+
+@media (min-width: 599px) {
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 30%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#header ul li a:hover, #header ul li.selected a {
+  color: #0ba39c;
+}
+}

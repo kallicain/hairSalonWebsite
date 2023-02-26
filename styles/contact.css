@@ -1,0 +1,226 @@
+body {
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  font-family: 'Poller One';
+  font-size: 22px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 2%;
+  text-align: center;
+}
+
+.sendoff {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8%;
+}
+
+#name {
+  height: 31px;
+  width: 380px;
+  border: 2px solid black;
+}
+
+#address {
+  height: 31px;
+  width: 380px;
+  border: 2px solid black;
+}
+
+#email {
+  height: 31px;
+  width: 380px;
+  border: 2px solid black;
+}
+
+#phone {
+  height: 31px;
+  width: 380px;
+  border: 2px solid black;
+}
+
+#message {
+  height: 200px;
+  width: 380px;
+  border: 2px solid black;
+  margin-bottom: 5%;
+}
+
+input {
+  text-align: center;
+  display: block;
+  margin-top: 5%;
+  text-transform: uppercase;
+  border: 3px solid black;
+}
+
+
+button {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 65px;
+  text-transform: uppercase;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+footer {
+  border: 1px solid black;
+  background-color: black;
+  background-size: 100%;
+  color: white;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+ion-icon {
+  font-size:25px;
+  border: 2px solid white;
+  color: white;
+  padding: 8px;
+  display: inline-flex;
+  margin-left: 50px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+@media (min-width: 599px) {
+body {
+  text-align: center;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  padding-top: 3%;
+}
+
+.navbar {
+  width: 30%;
+  padding: 1.5%;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  text-transform: uppercase;
+}
+
+#header ul li a:hover, #header ul li.selected a {
+  color: #0ba39c;
+}
+
+ h1 {
+  padding: 10px;
+  font-size: 40px;
+  margin: 0% 20%;
+  align-self: center;
+ }
+
+ .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ input {
+  text-align: center;
+  display: block;
+  margin: 7% 0%;
+  text-transform: uppercase;
+}
+
+ #name {
+  width: 650px;
+  height: 50px;
+ }
+
+ #address {
+  width: 650px;
+  height: 50px;
+ }
+
+ #email {
+  width: 650px;
+  height: 50px;
+ }
+
+ #phone {
+  width: 650px;
+  height: 50px;
+ }
+
+ #message {
+  width: 650px;
+  height: 200px;
+ }
+
+ button {
+  display: flex;
+  height: 65px;
+  width: 110px;
+  font-size: 15px;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .sendoff {
+  margin-bottom: 3%;
+ }
+
+ footer #links {
+  display: flex;
+  flex-direction: row;
+ }
+
+ #links {
+  padding: 20px;
+ }
+
+ .sociallinks {
+  justify-content: right;
+ }
+}
