@@ -118,7 +118,7 @@ ion-icon {
 }
 
 a:visited {
-  color:grey;
+  color: black;
 }
 
 @media (min-width: 599px) {

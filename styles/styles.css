@@ -10,6 +10,12 @@
     text-align: center;
   }
 
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+  }
+
 
   #title {
     display: flex;
@@ -35,6 +41,7 @@
     font-family: 'Poller One';
     font-size: 14px;
     padding: 10px;
+    width: fit-content;
   }
 
   .titletext p {
@@ -42,6 +49,7 @@
     padding: 10px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
   }
 
   button {
@@ -49,8 +57,8 @@
     background-color: #0ba39c;
     color: white;
     border: none;
+    height: 35px;
   }
-
 
   #trinity {
     display: flex;
@@ -87,7 +95,6 @@
     align-items: center;
     padding-top: 15px;
     padding-bottom: 30px;
-    margin-bottom: 30px;
   }
 
   .socials {
@@ -186,11 +193,18 @@
     top: 30%;
     left: 60%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
+
+ .titletext p {
+  font-size: 20px;
+ }
 
   h1 {
     width: fit-content;
-    padding-right: 10px;
+    font-size: 24px;
   }
 
   button {
@@ -198,7 +212,6 @@
     width: 145px;
     font-size: 16px;
     text-transform: uppercase;
-    margin-right: 200px;
   }
 
   .titletext p {
