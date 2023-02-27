@@ -1,4 +1,5 @@
 body {
+  margin: 0;
   height: 100vh;
 }
 
@@ -91,6 +92,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .socials {
@@ -229,5 +231,6 @@ a {
   justify-content: space-around;
   flex-direction: row;
   height: 100px;
+  padding-bottom: 10px;
  }
 }
