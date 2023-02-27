@@ -2,20 +2,12 @@
     margin: 0;
   }
 
-  .navbar {
+  .header {
     display: flex;
-  }
-
-  .navlinks {
-    display: none;
-    position: relative;
-  }
-
-  .navlinks.openmenu {
-    position: absolute;
-    display: flex;
+    justify-content: center;
     flex-direction: column;
-  
+    align-items: center;
+    text-align: center;
   }
 
   #title {
@@ -142,17 +134,20 @@
     flex-direction: column;
   }
 
-  .navbar {
-    width: 30%;
+  .logo {
+    padding-top: 3%;
   }
+  
 
-  .navlinks {
+  ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 0;
     width: 100%;
+    padding: 10px 40px;
+    margin-right: 200px;
+    padding-bottom: 50px;
   }
 
   li {
@@ -171,24 +166,9 @@
     color: #0ba39c;
   }
 
-  .hamburger {
-    display: none;
-  }
-  
-  .logo {
-    height: auto;
-    width: 400px;
-    display: flex;
-    margin-top: 3%;
-  }
-
   #title {
     width: 100%;
-    /* position: relative; */
     text-align: center;
-    /* top: 30%;
-    left: 60%;
-    transform: translate(-50%, -50%); */
   }
   
   
