@@ -33,6 +33,15 @@
     background-color: black;
     background-size: 100%;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .socials {
+    display: flex;
+    flex-direction: row;
   }
 
   h2 {
@@ -46,12 +55,15 @@
     border: 2px solid white;
     color: white;
     padding: 8px;
-    display: inline-flex;
-    margin-left: 50px;
+    display: flex;
+    margin-left: 20px;
     justify-content: center;
     align-items: center;
   }
 
+  a:visited {
+    color:grey;
+  }
 
 @media (min-width: 599px) {
   body {
@@ -124,5 +136,17 @@
     justify-content: center;
     margin-left: 5%;
     margin-bottom: 2%;
+  }
+
+  h3 {
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100px;
   }
 }

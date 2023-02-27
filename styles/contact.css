@@ -87,6 +87,15 @@ footer {
   background-color: black;
   background-size: 100%;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
 }
 
 h2 {
@@ -100,10 +109,14 @@ ion-icon {
   border: 2px solid white;
   color: white;
   padding: 8px;
-  display: inline-flex;
-  margin-left: 50px;
-  /* justify-content: center;
-  align-items: center; */
+  display: flex;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+a:visited {
+  color:grey;
 }
 
 @media (min-width: 599px) {
@@ -211,16 +224,10 @@ a {
   margin-bottom: 3%;
  }
 
- footer #links {
+ footer {
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
- }
-
- #links {
-  padding: 20px;
- }
-
- .sociallinks {
-  justify-content: right;
+  height: 100px;
  }
 }

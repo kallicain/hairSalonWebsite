@@ -80,6 +80,11 @@ ion-icon {
 h3 {
   font-size: 15px;
   text-align: center;
+  font-weight: normal;
+}
+
+a:visited {
+  color:grey;
 }
 
 @media (min-width: 599px) {
