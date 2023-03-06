@@ -2,7 +2,7 @@
     margin: 0;
   }
 
-  .header {
+  #header {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -22,6 +22,10 @@
     flex-direction: column;
     text-align: left;
     color: white;
+  }
+  section.titletext .text {
+    padding-left: 20px;
+    /* this ensures the text isn't touching the edge of the element */
   }
 
   .titletext {
@@ -129,23 +133,26 @@
   }
 
 @media (min-width: 599px) {
+  /* one thing to note is if you've already set styles outside of the media query
+  and you don't plan on changing those styles, then you don't have to re-write them here.*/
+  /* a lot of this code is the same as above and that's unnecessary work! */
 
   body {
-    margin: 0;
+    /* margin: 0; */
     height: 100%;
   }
   
-  #header {
+  /* #header {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
-
+  } */
+/* 
   .logo {
     padding-top: 3%;
   }
-  
+   */
 
   ul {
     display: flex;
@@ -182,20 +189,26 @@
   
   .titletext {
     width: 100%;
-    height: 550px;
     object-fit: cover;
     height: 700px;
     position: relative;
+    display: flex;
+    justify-content: flex-end;
+    /* added this to push the .text element to the right */
   }
 
   .text {
-    position: absolute;
+    /* position: absolute;
     top: 30%;
     left: 60%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    /* text-align: center; */
+    /* removed above because we can utilize flex-box to move the children around */
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: flex-start;
+    padding-right: 160px;
+    width: fit-content;
   }
 
  .titletext p {
@@ -220,10 +233,10 @@
   }
   
   #trinity {
-    display: flex;
+    /* display: flex; */
+    flex-direction: row;
     justify-content: center;
     padding-top: 20px;
-    flex-direction: row;
   }
   
   img {
